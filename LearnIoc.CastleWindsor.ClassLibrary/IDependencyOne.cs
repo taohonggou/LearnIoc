@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearnLoc.CastleWindsor
+namespace LearnIoc.CastleWindsor.ClassLibrary
 {
-    class Program
+    public interface IDependencyOne
     {
-        static void Main(string[] args)
-        {
-        }
+        object SomeObject { get; set; }
     }
 }
