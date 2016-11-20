@@ -10,6 +10,7 @@ namespace LearnLoc.Autofac
     {
         static void Main(string[] args)
         {
+            //测试git
 
         }
     }
