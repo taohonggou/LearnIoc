@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearnIoc.CastleWindsor.ClassLibrary
 {
-    class DependencyTwo : IDependencyTwo
+    public class DependencyTwo : IDependencyTwo
     {
         public object SomeOtherObject { get; set; }
     }
