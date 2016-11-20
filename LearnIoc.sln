@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.CastleWindsor.Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.CastleWindsor.WindowsForm", "LearnIoc.CastleWindsor.WindowsForm\LearnIoc.CastleWindsor.WindowsForm.csproj", "{A845C09A-4AFA-4C73-B277-BE3F9852EE5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.CastleWindsor.MVC", "LearnIoc.CastleWindsor.MVC\LearnIoc.CastleWindsor.MVC.csproj", "{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A845C09A-4AFA-4C73-B277-BE3F9852EE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A845C09A-4AFA-4C73-B277-BE3F9852EE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A845C09A-4AFA-4C73-B277-BE3F9852EE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
