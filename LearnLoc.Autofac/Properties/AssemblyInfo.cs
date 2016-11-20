@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("LearnLoc")]
+[assembly: AssemblyTitle("LearnLoc.Autofac")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LearnLoc")]
+[assembly: AssemblyProduct("LearnLoc.Autofac")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("f1dee433-0167-4a83-b330-8a48e64e53e2")]
+[assembly: Guid("8547536b-c409-41b5-bcb2-49d3fe5245b9")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

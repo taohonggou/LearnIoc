@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1DEE433-0167-4A83-B330-8A48E64E53E2}</ProjectGuid>
+    <ProjectGuid>{8547536B-C409-41B5-BCB2-49D3FE5245B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LearnLoc</RootNamespace>
-    <AssemblyName>LearnLoc</AssemblyName>
+    <RootNamespace>LearnLoc.Autofac</RootNamespace>
+    <AssemblyName>LearnLoc.Autofac</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
