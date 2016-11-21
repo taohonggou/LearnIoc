@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.Autofac", "LearnIoc.Autofac\LearnIoc.Autofac.csproj", "{8547536B-C409-41B5-BCB2-49D3FE5245B9}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.CastleWindsor.MVC", "LearnIoc.CastleWindsor.MVC\LearnIoc.CastleWindsor.MVC.csproj", "{9E34BE6B-8F8C-4403-94D8-D3F0DB814A02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.CastleWindsor.MVC2013", "LearnIoc.CastleWindsor.MVC2013\LearnIoc.CastleWindsor.MVC2013.csproj", "{903B917D-2413-4764-8C54-0792FF48F0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIoc.Test", "LearnIoc.Test\LearnIoc.Test.csproj", "{C612C839-B2EF-46ED-BA19-F36BE7D74688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{903B917D-2413-4764-8C54-0792FF48F0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903B917D-2413-4764-8C54-0792FF48F0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903B917D-2413-4764-8C54-0792FF48F0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C612C839-B2EF-46ED-BA19-F36BE7D74688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C612C839-B2EF-46ED-BA19-F36BE7D74688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C612C839-B2EF-46ED-BA19-F36BE7D74688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C612C839-B2EF-46ED-BA19-F36BE7D74688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
