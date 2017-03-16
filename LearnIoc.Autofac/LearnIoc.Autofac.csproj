@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="implementation\ConsoleOutput.cs" />
+    <Compile Include="implementation\TestSon.cs" />
     <Compile Include="implementation\TodayWriter.cs" />
     <Compile Include="Interfaces\IDateWriter.cs" />
     <Compile Include="Interfaces\IOutput.cs" />
