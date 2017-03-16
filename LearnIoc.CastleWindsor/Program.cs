@@ -6,8 +6,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using LearnLoc.CastleWindsor.Interfaces;
-namespace LearnLoc.CastleWindsor
+using LearnIoc.CastleWindsor.Interfaces;
+namespace LearnIoc.CastleWindsor
 {
     class Program
     {
@@ -27,7 +27,7 @@ namespace LearnLoc.CastleWindsor
 
             IUserServices userService = container.Resolve<IUserServices>();
             Console.WriteLine(userService.GetUserName("123"));
-
+            Console.ReadKey();
         }
     }
 }

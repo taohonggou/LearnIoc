@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearnLoc.Autofac
+namespace LearnIoc.Autofac
 {
     class Program
     {
