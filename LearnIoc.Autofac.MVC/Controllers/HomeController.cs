@@ -4,27 +4,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using LearnIoc.Autofac.MVC.Repository.Interfaces;
 
 namespace LearnIoc.Autofac.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private TestFather _testFather;
-        private Test _test;
+        private ITestTwoRepository _testTwoRepository;
+        private ITestOneRepository _testOneRepository;
 
-        public HomeController(TestFather testFather/*, Test test*/)
+        public HomeController(ITestOneRepository testOneRepository, ITestTwoRepository testTwoRepository)
         {
-            _testFather = testFather;
-            //_test = test;
+            _testOneRepository = testOneRepository;
+            _testTwoRepository = testTwoRepository;
         }
 
         public ActionResult Index()
         {
-            string _testGuid = _test.TestFather.Guid.ToString();
-            string _testFatherGuid = _testFather.Guid.ToString();
+            string one = _testOneRepository.GetGuid();
+            string two = _testTwoRepository.GetGuid();
 
-
-            return Content($"_testGuid={_testGuid}||_testFatherGuid={_testFatherGuid},\n 结果:{_testGuid== _testFatherGuid}");
+            return Content($"One={one}  Two={two} \r\n one=two:{one==two}");
         }
 
         public ActionResult About()

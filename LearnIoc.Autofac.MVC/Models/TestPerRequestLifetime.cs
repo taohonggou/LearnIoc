@@ -5,19 +5,18 @@ using System.Web;
 
 namespace LearnIoc.Autofac.MVC.Models
 {
-    public abstract class TestFather
+    public abstract class DBContext
     {
         public abstract Guid Guid { get; }
 
         public abstract string GetGuid();
-
     }
 
-    public class TestSon : TestFather
+    public class EntityContext : DBContext
     {
         public override Guid Guid { get; }
 
-        public TestSon()
+        public EntityContext()
         {
             Guid = Guid.NewGuid();
         }
@@ -25,16 +24,6 @@ namespace LearnIoc.Autofac.MVC.Models
         public override string GetGuid()
         {
             return Guid.ToString();
-        }
-    }
-
-    public class Test
-    {
-        public  TestFather TestFather;
-
-        public Test (TestFather testFather)
-        {
-            TestFather = testFather;
         }
     }
 }

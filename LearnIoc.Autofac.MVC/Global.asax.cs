@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
 using LearnIoc.Autofac.MVC.Models;
+using LearnIoc.Autofac.MVC.Repository.Implementation;
+using LearnIoc.Autofac.MVC.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +24,9 @@ namespace LearnIoc.Autofac.MVC
 
             #region autofac
             var builder = new ContainerBuilder();
-            builder.RegisterType<TestSon>().As<TestFather>().InstancePerRequest();
+            builder.RegisterType<EntityContext>().As<DBContext>().InstancePerRequest();
+            builder.RegisterType<TestOneRepository>().As<ITestOneRepository>();
+            builder.RegisterType<TestTwoRepository>().As<ITestTwoRepository>();
 
 
             // Register your MVC controllers. (MvcApplication is the name of
