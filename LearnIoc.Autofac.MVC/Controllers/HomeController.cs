@@ -24,7 +24,17 @@ namespace LearnIoc.Autofac.MVC.Controllers
             string one = _testOneRepository.GetGuid();
             string two = _testTwoRepository.GetGuid();
 
-            return Content($"One={one}  Two={two} \r\n one=two:{one==two}");
+            return Content($"One={one}  Two={two} \r\n one=two:{one == two}");
+        }
+
+        /// <summary>
+        /// 在异步方式中,检查DBContext是否唯一
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult  TestHttpContext()
+        {
+            string one= _testTwoRepository.GetGuidAsync();
+            return Content($"One={one}");
         }
 
         public ActionResult About()

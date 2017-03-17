@@ -9,5 +9,7 @@ namespace LearnIoc.Autofac.MVC.Repository.Interfaces
     public interface ITestTwoRepository
     {
         string GetGuid();
+
+        string GetGuidAsync();
     }
 }
